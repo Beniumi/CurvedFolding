@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/DarkTheme.uss?fileID=7433441132597879392&amp;guid=a922d61bde5600e4bad5931f15722918&amp;type=3#DarkTheme" />
+    <Style src="project://database/Assets/UI/InsoectorLikeField.uss?fileID=7433441132597879392&amp;guid=63c0a1ba8c23967439f43900e0da59f2&amp;type=3#InsoectorLikeField" />
+    <ui:VisualElement name="Menu" focusable="false" style="flex-grow: 0; align-self: flex-start; position: absolute;">
+        <ui:VisualElement name="shadow" style="flex-grow: 1; margin-top: 2px; margin-left: 2px; position: absolute; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);" />
+        <ui:VisualElement name="Content" class="toolbar-content" style="flex-grow: 1; min-width: auto; min-height: auto;" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/DarkTheme.uss?fileID=7433441132597879392&amp;guid=a922d61bde5600e4bad5931f15722918&amp;type=3#DarkTheme" />
+    <Style src="project://database/Assets/UI/InsoectorLikeField.uss?fileID=7433441132597879392&amp;guid=63c0a1ba8c23967439f43900e0da59f2&amp;type=3#InsoectorLikeField" />
+    <ui:VisualElement name="Toolbar" class="toolbar black-color" style="flex-grow: 0; flex-direction: row; justify-content: flex-start; align-self: stretch; height: auto; position: relative; width: auto; border-left-color: rgb(32, 32, 32); border-right-color: rgb(32, 32, 32); border-top-color: rgb(32, 32, 32); border-bottom-color: rgb(32, 32, 32); border-bottom-width: 1px;" />
+</ui:UXML>

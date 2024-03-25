@@ -1,0 +1,49 @@
+.unity-base-text-field__input {
+	padding: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-width: 1px;
+	border-radius: 5px;
+}
+
+.unity-composite-field {
+	flex-wrap: wrap;
+}
+
+.unity-composite-field__label {
+	min-width: 40%;
+}
+
+.unity-composite-field__input {
+	flex-basis: auto;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.unity-composite-field__field > Label {
+	min-width: auto;
+	width: auto;
+}
+
+.unity-composite-field__field > .unity-base-text-field__input {
+	width: 60px;
+}
+
+/*
+.unity-list-view {
+	show-border: true;
+	reorderable: true;
+	show-foldout-header: true;
+	show-add-remove-footer: true;
+	reorder-mode: animated;
+}
+*/
+.unity-list-view {
+	max-height: 400px;
+}
+
+.unity-list-view__size-field {
+	width: 60px;
+	height: 32px;
+	max-width: none;
+}

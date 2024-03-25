@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/DarkTheme.uss?fileID=7433441132597879392&amp;guid=a922d61bde5600e4bad5931f15722918&amp;type=3#DarkTheme" />
+    <Style src="project://database/Assets/UI/InsoectorLikeField.uss?fileID=7433441132597879392&amp;guid=63c0a1ba8c23967439f43900e0da59f2&amp;type=3#InsoectorLikeField" />
+    <ui:VisualElement name="Window" class="dark-black-color" style="flex-grow: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; border-left-color: rgb(31, 31, 31); border-right-color: rgb(31, 31, 31); border-top-color: rgb(31, 31, 31); border-bottom-color: rgb(31, 31, 31); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; position: absolute;">
+        <ui:VisualElement name="TitleBar" style="flex-grow: 0; flex-direction: row; justify-content: space-between; padding-left: 10px; flex-shrink: 0;">
+            <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Name" />
+            <ui:Button text="×" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Close" class="dark-button" style="width: 26px; height: 28px; -unity-font-style: bold; background-color: rgba(0, 0, 0, 0);" />
+        </ui:VisualElement>
+        <ui:ScrollView name="Content" mode="VerticalAndHorizontal" class="black-color" style="align-items: stretch; align-self: stretch; justify-content: flex-start; flex-grow: 1;" />
+    </ui:VisualElement>
+</ui:UXML>

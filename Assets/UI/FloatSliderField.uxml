@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/DarkTheme.uss?fileID=7433441132597879392&amp;guid=a922d61bde5600e4bad5931f15722918&amp;type=3#DarkTheme" />
+    <Style src="project://database/Assets/UI/InsoectorLikeField.uss?fileID=7433441132597879392&amp;guid=63c0a1ba8c23967439f43900e0da59f2&amp;type=3#InsoectorLikeField" />
+    <ui:Slider picking-mode="Ignore" label="Slider" value="42" high-value="100" show-input-field="true" />
+</ui:UXML>
